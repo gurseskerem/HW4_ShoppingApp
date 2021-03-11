@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57D5D41625FA9C3A005CE66E /* marvels-agents-of-shield-logo-png-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D5D41525FA9C3A005CE66E /* marvels-agents-of-shield-logo-png-transparent.png */; };
 		57F056A225F6A72500CC2A14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F056A125F6A72500CC2A14 /* AppDelegate.m */; };
 		57F056A525F6A72500CC2A14 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F056A425F6A72500CC2A14 /* SceneDelegate.m */; };
 		57F056A825F6A72500CC2A14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F056A725F6A72500CC2A14 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57D5D41525FA9C3A005CE66E /* marvels-agents-of-shield-logo-png-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marvels-agents-of-shield-logo-png-transparent.png"; sourceTree = "<group>"; };
 		57F0569D25F6A72500CC2A14 /* HW4_ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4_ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F056A025F6A72500CC2A14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57F056A125F6A72500CC2A14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				57F056AE25F6A72800CC2A14 /* LaunchScreen.storyboard */,
 				57F056B125F6A72800CC2A14 /* Info.plist */,
 				57F056B225F6A72800CC2A14 /* main.m */,
+				57D5D41525FA9C3A005CE66E /* marvels-agents-of-shield-logo-png-transparent.png */,
 			);
 			path = HW4_ShoppingApp;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D5D41625FA9C3A005CE66E /* marvels-agents-of-shield-logo-png-transparent.png in Resources */,
 				57F056B025F6A72800CC2A14 /* LaunchScreen.storyboard in Resources */,
 				57F056AD25F6A72800CC2A14 /* Assets.xcassets in Resources */,
 				57F056AB25F6A72500CC2A14 /* Main.storyboard in Resources */,

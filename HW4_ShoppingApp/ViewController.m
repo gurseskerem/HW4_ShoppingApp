@@ -33,7 +33,7 @@
     
 }
 
-- (nonnull UITableViewCell *)tableView:(nonnull UITableView*)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath:(nonnull NSIndexPath *)indexPath {
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc] init];
     [[cell textLabel] setText:[items objectAtIndex:[indexPath row]]];
     return cell;
