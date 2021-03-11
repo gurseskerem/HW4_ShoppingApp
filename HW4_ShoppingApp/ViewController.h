@@ -10,6 +10,7 @@
 @interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic,strong) IBOutlet UITableView *tableView;
+@property (nonatomic,strong) IBOutlet UILabel *costLabel;
 @property (nonatomic,strong) NSMutableArray *items;
 @property (nonatomic,strong) IBOutlet UITextField *textField;
 

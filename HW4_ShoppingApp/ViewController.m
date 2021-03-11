@@ -15,8 +15,8 @@
 
 
 @implementation ViewController
-@synthesize items, tableView, textField;
-
+@synthesize items, tableView, textField, costLabel;
+int initialCost = 30;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,5 +48,13 @@
     [items addObject:s];
     [textField setText:@""];
     [tableView reloadData];
+}
+
+- (IBAction)buttonClicked:(id)sender{
+    uint32_t randomIntegerWithinRange = arc4random_uniform(100) + 30; // A random integer between 3 and 12
+    
+    initialCost = initialCost + randomIntegerWithinRange;
+    NSString *strValue = @(initialCost).stringValue;
+    [costLabel setText:strValue];
 }
 @end
