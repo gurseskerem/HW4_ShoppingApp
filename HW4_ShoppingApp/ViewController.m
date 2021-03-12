@@ -25,9 +25,9 @@ int initialCost = 30;
     [tableView setDataSource:self];
     
     items = [[NSMutableArray alloc] init];
-    [items addObject:@"Mjölnir"];
+    [items addObject:@"Thor's Mjölnir"];
     [items addObject:@"Captain America's Shield"];
-    [items addObject:@"Jarvis"];
+    [items addObject:@"Iron Man's Jarvis"];
     
     [tableView reloadData];
     
@@ -51,7 +51,7 @@ int initialCost = 30;
 }
 
 - (IBAction)buttonClicked:(id)sender{
-    uint32_t randomIntegerWithinRange = arc4random_uniform(100) + 30; // A random integer between 3 and 12
+    uint32_t randomIntegerWithinRange = arc4random_uniform(1000) + 300; // A random integer between 3 and 12
     
     initialCost = initialCost + randomIntegerWithinRange;
     NSString *strValue = @(initialCost).stringValue;
